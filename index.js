@@ -1,7 +1,8 @@
 const { Client } = require("discord.js-selfbot-v13");
 const axios = require("axios");
 require('dotenv').config();
-console.log(API_TOKEN)
+const API_TOKEN = process.env.API_TOKEN;
+
 const fs = require("fs");
 const client = new Client();
 const cookies =
